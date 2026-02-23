@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #f5f5f5;
+  --amber-50: #fef3c7;
+  --amber-500: #f59e0b;
+  --amber-700: #92400e;
+  --amber-800: #854d0e;
+  --background: #fafafa;
+  --blue-100: #dbeafe;
+  --blue-200: #bfdbfe;
+  --blue-50: #eff6ff;
+  --blue-600: #2563eb;
+  --blue-700: #1d4ed8;
+  --blueish-primary: #4a9eed;
+  --border: #e5e5e5;
+  --card: #fafafa;
+  --card-foreground: #0a0a0a;
+  --destructive: #e7000b;
+  --emerald-500: #22c55e;
+  --emerald-700: #15803d;
+  --foreground: #0a0a0a;
+  --input: #e5e5e5;
+  --muted: #f5f5f5;
+  --muted-foreground: #737373;
+  --popover: #fafafa;
+  --primary: #171717;
+  --primary-foreground: #fafafa;
+  --red-500: #ef4444;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #171717;
+  --sidebar: #fafafa;
+  --sidebar-accent: #f4f4f4;
+  --sidebar-accent-foreground: #18181b;
+  --sidebar-border: #e4e4e7;
+  --sidebar-foreground: #09090b;
+  --violet-50: #f5f3ff;
+  --violet-500: #8b5cf6;
+  --violet-600: #7c3aed;
+  --violet-700: #6d28d9;
+  --white: #ffffffff;
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-300: #d4d4d8;
+  --zinc-400: #a1a1aa;
+  --zinc-50: #fafafa;
+  --zinc-500: #71717a;
+  --zinc-600: #52525b;
+  --zinc-700: #3f3f46;
+  --zinc-900: #18181b;
+}
+
+.dark {
+  --accent: #262626;
+  --amber-50: #78350f;
+  --amber-500: #b45309;
+  --amber-700: #b45309;
+  --amber-800: #92400e;
+  --background: #0a0a0a;
+  --blue-100: #0e3a8c;
+  --blue-200: #1e40af;
+  --blue-50: #0c4a6e;
+  --blue-600: #1e40af;
+  --blue-700: #1e3a8a;
+  --blueish-primary: #5aa1ff;
+  --border: #ffffff1a;
+  --card: #171717;
+  --card-foreground: #fafafa;
+  --destructive: #ff666999;
+  --emerald-500: #16a34a;
+  --emerald-700: #047857;
+  --foreground: #fafafa;
+  --input: #ffffff1a;
+  --muted: #262626;
+  --muted-foreground: #a3a3a3;
+  --popover: #171717;
+  --primary: #e5e5e5;
+  --primary-foreground: #171717;
+  --red-500: #dc2626;
+  --secondary: #262626;
+  --secondary-foreground: #fafafa;
+  --sidebar: #18181b;
+  --sidebar-accent: #2a2a30;
+  --sidebar-accent-foreground: #fafafa;
+  --sidebar-border: #ffffff1a;
+  --sidebar-foreground: #fafafa;
+  --violet-50: #4c1d95;
+  --violet-500: #7c3aed;
+  --violet-600: #6d28d9;
+  --violet-700: #5b21b6;
+  --white: #ffffff;
+  --zinc-100: #27272a;
+  --zinc-200: #3f3f46;
+  --zinc-300: #52525b;
+  --zinc-400: #71717a;
+  --zinc-50: #18181b;
+  --zinc-500: #a1a1aa;
+  --zinc-600: #d4d4d8;
+  --zinc-700: #e4e4e7;
+  --zinc-900: #fafafa;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}

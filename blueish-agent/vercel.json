@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build && npm run build-storybook",
+  "outputDirectory": ".next",
+  "installCommand": "npm install --legacy-peer-deps",
+  "env": {
+    "BASIC_AUTH_USER": "admin",
+    "BASIC_AUTH_PASSWORD": "blueish2024"
+  },
+  "framework": "nextjs",
+  "nodeVersion": "20.x"
+}
