@@ -1,11 +1,7 @@
 {
-  "buildCommand": "npm run build && npm run build-storybook",
-  "outputDirectory": ".next",
-  "installCommand": "npm install --legacy-peer-deps",
-  "env": {
-    "BASIC_AUTH_USER": "admin",
-    "BASIC_AUTH_PASSWORD": "blueish2024"
-  },
+  "buildCommand": "cd blueish-agent && npm run build",
+  "outputDirectory": "blueish-agent/.next",
+  "installCommand": "cd blueish-agent && npm install --legacy-peer-deps",
   "framework": "nextjs",
   "nodeVersion": "20.x"
 }
